@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <title>ASSIGNMENT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            min-width: 100%;
+            min-height: 100vh;
+            background-image: url(img/Mask\ Group\ 38.png);
+            background-position: center;
+            background-size: cover;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            /* margin: 10px 15px; */
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .Thinkin {
+            position: absolute;
+            top: 28px;
+            left: 202px;
+            width: 113px;
+            height: 28px;
+            color: white;
+            font-family: montserrat;
+        }
+
+        header {
+            display: flex;
+            justify-content: right;
+            top: 16px;
+            margin-left: 150px;
+            width: 1140px;
+            height: 52px;
+        }
+
+        #button {
+            padding: 8px 33px;
+            background-color: #FFC832;
+            font-size: 18px;
+            border: 0;
+            font-family: montserrat;
+            margin-top: 9px;
+
+        }
+
+        ul {
+            display: flex;
+            gap: 76px;
+            padding-top: 3px;
+            margin-top: 17px;
+            font-family: montserrat;
+
+        }
+
+        .navv {
+            display: flex;
+            align-content: center;
+            gap: 66px;
+        }
+
+        h1 {
+            margin-left: 150px;
+            margin-top: 88px;
+            font-size: 80px;
+            color: white;
+
+        }
+
+        .img {
+            position: absolute;
+            right: 0%;
+            bottom: 0;
+        }
+
+        #search {
+            margin-left: 8px;
+            height: 60px;
+            width: 669px;
+            margin-top: 17.5px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border-radius: 4px;
+            opacity: 1;
+        }
+
+        #imgg {
+            width: 52px;
+            height: 59px;
+            margin-bottom: -1.55%;
+            opacity: 1;
+        }
+
+        input {
+            font-family: montserrat;
+            position: relative;
+            bottom: 10px;
+
+        }
+
+        .searc {
+            background: #EBEBEB 0% 0% no-repeat padding-box;
+            box-shadow: 0px -10px 20px #00000080;
+            border-radius: 6px;
+            opacity: 0.2;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            width: 756px;
+            height: 74px;
+            position: relative;
+            left: 152px;
+            top: 30px;
+            box-sizing: border-box;
+        }
+
+        #underline {
+            top: 451px;
+            left: 150px;
+            width: 757px;
+            height: 1px;
+            background-color: white;
+            position: absolute;
+        }
+        #st{
+            font-family: montserrat;
+            position: absolute; 
+            top: 491px;
+            left: 150px;
+            width: 250px;
+            height: 22px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            font-size: 18px;
+
+        }
+        .dlink{
+           font-size: 14px;
+           font-family: montserrat;
+           color: #FFFFFF;
+           border: 1px solid #FFFFFF;
+           padding: 7px 14px;
+           background-color: #32AAFF;
+           border-radius: 20px;
+           opacity: 0.8;
+        
+        }
+        .link{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            position: absolute;
+            top: 531px;
+            left: 150px;
+            
+
+            
+        }
+        .links{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            position: absolute;
+            top: 39px
+        }
+        #butn{
+            background-color: #FFC832;
+            border: 0;
+            font-family: montserrat;
+            width: 180px;
+            height: 45px;
+            position: absolute;
+            left: 150px;
+            top: 643px;
+        }
+           
+        #plus{
+            position: absolute;
+            top: 948px;
+            left: 150px;
+            width: 36px;
+            height: 36px;
+        }
+        #frmthe{
+            position: absolute;
+            left: 36px;
+            width: 375px;
+            font: normal normal bold 40px Adobe Caslon Pro;
+        }
+        #hrng{
+            width: 276px;
+            height: 308px;
+            position: absolute;
+            left: 150px;
+            top: 1073px;
+        }
+
+        
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span class="Thinkin">Thinkin Blue</span>
+            <nav>
+                <img src="" class="logo">
+
+                <div class="navv">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">ThinkinBlue Business</a></li>
+                    </ul>
+                    <button id="button">Login</button>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <h1>
+                The career network <br> for workers
+            </h1>
+
+            <img src="img/Mask Group 20.png" class="img">
+            <div class="searc"><input type="text" id="search" placeholder="Search better opportunites">
+                <img src="img/Component 35 – 1.svg" id="imgg">
+            </div>
+            <div id="underline">
+            </div>
+            <span id="st">
+                <p>100+ Job Categories</p>
+            </span>
+           <div class="link">
+            <div class="dlink">
+                <i>Precision Production</i>
+            </div>
+            <div class="dlink">
+                <i>Helpers</i>
+            </div>
+            <div class="dlink">
+                <i>Front-line Supervisors</i>
+            </div>
+            <div class="dlink">
+                <i>Machine operator & Supervisors</i>
+            </div>
+            <div class="links">
+                <div class="dlink">
+                    <i>Machine operators</i>
+                </div>
+                <div class="dlink">
+                    <i>Handlers</i>
+                </div>
+                <div class="dlink">
+                    <i>Transportaion and moving occupations</i>
+                </div>
+                <div class="dlink">
+                    <i>See all</i>
+                </div>
+            </div>
+            
+           </div>
+            <button id="butn">
+              Join ThinkinBlue
+            </button>
+        </div>
+        <div class="second">
+            <div id="plus">
+                <div>
+                    <img src="img/Group 1614.svg" alt="">
+                </div>
+                <div id="frmthe">
+                    <p>
+                        From the Community
+                    </p>
+                </div>
+            </div>
+            <div class="hiring">
+                <img src="we-are-hiring-job-poster-with-woman-silhouette_86693-28.avif" id="hrng">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
